@@ -1,3 +1,9 @@
+body {
+  margin:0;
+  padding:0;
+  background:rgb(240, 240, 240);
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  list-style: none;
+  background:#fff;
+  padding:40px 0px;
+  margin:0;
+  box-shadow:0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  display:inline-block;
+  margin-right:30px;
+  font-size:1.5em;
+}
+
+ul li a {
+  text-decoration: none;
+  color:rgb(45, 45, 45);
+}
+
+h2 {
+  margin-top:50px;
+  font-size:3rem;
 }
